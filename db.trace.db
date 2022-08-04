@@ -1,0 +1,6 @@
+2022-08-03 21:00:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TABLE_STUDENT"; expected "TRUNCATE"; SQL statement:
+TABLE_STUDENT [42001-214]
+2022-08-03 21:17:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "STUDENT" not found; SQL statement:
+SELECT * FROM STUDENT [42102-214]
